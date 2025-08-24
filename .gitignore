@@ -1,2 +1,13 @@
 frontend/
 genstyle-frontend/
+# Ignore node_modules in frontend and genstyle-frontend
+frontend/node_modules/
+genstyle-frontend/node_modules/
+node_modules/
+
+# Common ignores
+*.log
+.env
+.env.local
+.DS_Store
+
